@@ -15,8 +15,8 @@ class TodosListCtrl {
     })
   }
 }
- 
-  .component('todosList', {
-    templateUrl: 'imports/components/todosList/todosList.html',
-    controller: ['$scope', TodosListCtrl]
-  });
+
+.component('todosList', {
+  templateUrl: 'imports/components/todosList/todosList.html',
+  controller: ['$scope', TodosListCtrl]
+});
