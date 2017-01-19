@@ -17,7 +17,13 @@ class App extends Component {
     return (
       <div className = "container">
           <header>
-            <h1> Todo eefsf </h1>
+            <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
+            <input
+              type="text"
+              ref="textInput"
+              placeholder="Type to add new tasks"
+            />
+          </form>
           </header>
 
           <ul>
